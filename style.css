@@ -174,32 +174,6 @@ header {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.plyr__progress input[type="range"] {
-    height: 0.3125rem; /* Equivalent to 5px */
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.plyr__progress input[type="range"]::-webkit-slider-thumb {
-    background-color: var(--accent-color);
-    height: 0.9375rem; /* Equivalent to 15px */
-    width: 0.9375rem; /* Equivalent to 15px */
-    border-radius: 50%;
-}
-
-.plyr__progress input[type="range"]::-moz-range-thumb {
-    background-color: var(--accent-color);
-    height: 0.9375rem;
-    width: 0.9375rem;
-    border-radius: 50%;
-}
-
-.plyr__controls button.plyr__control--volume,
-.plyr__controls button.plyr__control--settings {
-    font-size: 0.875rem; /* Equivalent to 14px */
-    background-color: transparent;
-    color: var(--accent-color);
-}
-
 .plyr__controls button.plyr__control--fullscreen {
     color: var(--accent-color);
     font-size: 1rem;
